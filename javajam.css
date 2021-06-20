@@ -10,7 +10,7 @@ body {
 
 header{
     line-height: 150px;
-    background-color: rgba(201, 64, 34 ,1);
+    background-color: #5c6362;
     text-align: center;
     /*background-image: url("Images/header.jpg");
     background-repeat: none;*/
@@ -53,7 +53,7 @@ nav a{ text-decoration: none;} /*to remove underline from the hyperlinks*/
 footer {                       /*10px of bottom padding and a solid 2px top border*/
    padding-bottom: 10px;
    border-top: 2px solid;
-    background-color: rgba(201, 64, 34 ,1);
+    background-color: #5c6362;
     color: whitesmoke;
     font-size: 0.8em;
     font-style: italic;
@@ -64,7 +64,7 @@ footer {                       /*10px of bottom padding and a solid 2px top bord
 }
 
 h4 {
-    background-color: #c94022;
+    background-color: #5c6362;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
     padding-left: 0.5em;
