@@ -1,0 +1,147 @@
+body {
+    /* fonts used as given in textbook */
+    font-family: Arial, verdana, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    background-image: url("Images/JJ2.jpg");
+    background-size: cover;
+
+}
+
+header{
+    line-height: 150px;
+    background-color: rgba(201, 64, 34 ,1);
+    text-align: center;
+    /*background-image: url("Images/header.jpg");
+    background-repeat: none;*/
+}
+
+h1 {
+    
+    /*background-color: (161,77,77);*/
+    padding-top: 45px;
+    padding-left: 200px;
+    padding-right: 60px;
+    font-size: 3em;
+    color: whitesmoke;
+    border-style: groove;
+    border-width: 10px;
+    border-color: whitesmoke;
+    
+    /*line-height: 150px;*/
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+    text-align: center;
+
+}
+
+nav
+
+    {
+    font-size: 1.5em;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 1em;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #8f7b7b;
+}
+
+nav a{ text-decoration: none;} /*to remove underline from the hyperlinks*/
+
+footer {                       /*10px of bottom padding and a solid 2px top border*/
+   padding-bottom: 10px;
+   border-top: 2px solid;
+    background-color: rgba(201, 64, 34 ,1);
+    color: whitesmoke;
+    font-size: 0.8em;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+
+}
+
+h4 {
+    background-color: #c94022;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    padding-bottom: 0.25em;
+    color: whitesmoke;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+}
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+   
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #020202;
+}
+
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+ul {
+
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: inside url('IC1.png');
+    
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    background-color: rgba(238, 214, 214, 0.5);
+    padding: 5px 5px;
+}
+
+a:link {
+    color: rgba(0, 0, 0, 0.932);
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: .70em;
+    text-indent: 1px;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.wrapper {
+    /*background-color: #dbb2b2;*/
+    min-width: 900px;
+    max-width:1280px;
+    box-shadow: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
